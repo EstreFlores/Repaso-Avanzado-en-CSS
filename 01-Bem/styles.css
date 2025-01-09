@@ -1,0 +1,109 @@
+/*
+
+BEM = Bloque Elemento Modificador
+
+SE USA SIEMPRE CLASS Y NO ID
+ 
+class= para aplicar estilos
+
+id = para aplicar funcionalidad en JS
+
+LO QUE PROPONE BEM::
+1 NO USAR ID
+2 NO USAR ETIQUETAS
+3 QUE TODO SEA UN KEY SELECTOR(ES DECIR SELECTOR DIRECTAMENTE, SELECCIONAR JUSTO AL ELELMENTO AL CUAL SE LE DARAN ESTILOS)
+*/
+
+
+/* ESTO ES CON BEM */
+.cards  {
+    width: 400px;
+    margin:  10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    
+}
+
+
+.cards__card{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+   
+}
+
+
+.cards__title{
+
+font-size: 25px;
+font-weight: bold;
+
+}
+
+.card__link{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+
+
+.card__link--rojo{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTA ES LA MANERA CLASICA 
+
+.cards  {
+    width: 400px;
+    margin:  10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    
+}
+
+
+.cards .card{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+   
+}
+
+
+.cards .card h3{
+
+font-size: 25px;
+font-weight: bold;
+
+}
+
+.cards .card a{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+
+*/

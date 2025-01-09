@@ -1,0 +1,21 @@
+:root{
+    --mi-variable:red;
+    --fuente:Arial, sans-serif;
+    --fuente-size:45px;
+
+}
+
+h1{
+    color:var(--mi-variable);
+    font-family:var(--fuente);
+    font-size:var(--fuente-size);
+}
+
+a{
+    color:var(--mi-variable);
+    font-family:var(--fuente);
+}
+
+h3{
+    font-size:var(--fuente-size);
+}
